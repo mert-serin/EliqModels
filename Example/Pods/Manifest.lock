@@ -1,0 +1,16 @@
+PODS:
+  - EliqModels (0.1.0)
+
+DEPENDENCIES:
+  - EliqModels (from `../`)
+
+EXTERNAL SOURCES:
+  EliqModels:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EliqModels: 97a8c0b5aa1dc8aeed3bd19ab238068959b54c59
+
+PODFILE CHECKSUM: b9270b13f560631601c7fd3528a587faf6740497
+
+COCOAPODS: 1.7.4

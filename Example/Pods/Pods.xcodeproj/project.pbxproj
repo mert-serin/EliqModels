@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8D26EF22DCA6C300C3A840 /* EliqFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D26EE22DCA6C300C3A840 /* EliqFlowModel.swift */; };
+		4E8D26F122DCA78600C3A840 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D26F022DCA78600C3A840 /* Enums.swift */; };
+		58BF0E632E41092DBB0A5FCF78658EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6FA1623F60444D2FDB7CDEAAC64BB0C1 /* Pods-EliqModels_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A204BD3BCB8584F462B70C8FCAC964 /* Pods-EliqModels_Tests-dummy.m */; };
+		96D71F0B4AC08FA52FA4DDD49FB67BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BA2691A97CF9E226ED7991582106E89A /* EliqModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 948F52012BC7A2BDDBAA127502752D26 /* EliqModels-dummy.m */; };
+		C6CB6E739E64336E9B3031E413770B0C /* Pods-EliqModels_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD57E98CAF141E04A83FBAD591D105D /* Pods-EliqModels_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA8D37E558ADECBC78A7ED3C884CE43E /* Pods-EliqModels_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D6A827C44EF444B502CFEC13B52460 /* Pods-EliqModels_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD40C93893A2A49DF07B9835BCEF43E /* Pods-EliqModels_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6AB17880DEE7ADE2CAEDFDB8007CE /* Pods-EliqModels_Example-dummy.m */; };
+		EC9B71CF5DB18C3E914EBE2F5FC8AACE /* EliqModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A51F41D97E92EF905FDB3381791FBB /* EliqModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A0D60C8C402A406093F712B70DFEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26819E4FC54173BF73ACF4B5024ACF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2CD49A5ECF9AC991CC999E33AD9537;
+			remoteInfo = "Pods-EliqModels_Example";
+		};
+		FA5FC20791487CD151F58C3C80CCD174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D267D6074300813DBC65AEB89C7FC629;
+			remoteInfo = EliqModels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D2C1F57BDF943B44C47E49318E8E1A /* EliqModels.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EliqModels.xcconfig; sourceTree = "<group>"; };
+		189B9CBE9C7E28F6311FE2D89500CA73 /* Pods-EliqModels_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqModels_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2AD57E98CAF141E04A83FBAD591D105D /* Pods-EliqModels_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliqModels_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2AF12AFEBBD9ABD3C8BED3AB5DE60827 /* EliqModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqModels-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36D6A827C44EF444B502CFEC13B52460 /* Pods-EliqModels_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliqModels_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B4942EF593AE3D8A1877347BF730ECF /* Pods-EliqModels_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EliqModels_Example.modulemap"; sourceTree = "<group>"; };
+		3B4F096D015234078502F53AA55AAED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C9FE38DA50177F5391EDD94B7FF972A /* EliqModels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EliqModels-Info.plist"; sourceTree = "<group>"; };
+		43A9DFDF9B52108DE3E8766028E5DBA5 /* Pods-EliqModels_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliqModels_Example-Info.plist"; sourceTree = "<group>"; };
+		47ACDFB7BBC2A295BE6CF55BD85BC93C /* EliqModels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EliqModels.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		47AE655FE7C4AD0292D4355D6B462A22 /* Pods-EliqModels_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EliqModels_Tests.modulemap"; sourceTree = "<group>"; };
+		48A204BD3BCB8584F462B70C8FCAC964 /* Pods-EliqModels_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliqModels_Tests-dummy.m"; sourceTree = "<group>"; };
+		49CDDD137B676304FE83D0E635118B72 /* Pods-EliqModels_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliqModels_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E8D26EE22DCA6C300C3A840 /* EliqFlowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EliqFlowModel.swift; path = ../EliqModels/Classes/EliqFlowModel.swift; sourceTree = "<group>"; };
+		4E8D26F022DCA78600C3A840 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = ../EliqModels/Classes/Enums.swift; sourceTree = "<group>"; };
+		5AC20D58FFA45DAEAA16618186F7B50A /* Pods-EliqModels_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqModels_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D19007F4491F131B5FD2BD3BF572688 /* Pods-EliqModels_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliqModels_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6712C65A57A2A617FC51E53493BFC487 /* Pods-EliqModels_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqModels_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE6AB17880DEE7ADE2CAEDFDB8007CE /* Pods-EliqModels_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliqModels_Example-dummy.m"; sourceTree = "<group>"; };
+		8A4AC68DBD61E88C39E6888DED77DD53 /* EliqModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EliqModels.modulemap; sourceTree = "<group>"; };
+		940FEF92E0DA5FD195EC24288102C82C /* EliqModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EliqModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		948F52012BC7A2BDDBAA127502752D26 /* EliqModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EliqModels-dummy.m"; sourceTree = "<group>"; };
+		97A109CE7740AE451027CFA212F66740 /* Pods-EliqModels_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliqModels_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C09ED0312CEDA167CC476CF557BDA0A /* Pods-EliqModels_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliqModels_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4CE6B64BE2D37175594490EBE7DDF72 /* Pods-EliqModels_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliqModels_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC000A6B00C5B3626B6076C638746D0E /* Pods_EliqModels_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliqModels_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD4E938CEB31DD31F26D27DE08C2F03 /* Pods-EliqModels_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqModels_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D58A0709C63117B21C6DE7FCA18D1D9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D5A1DC31B54A7B166597FF0E60F4003A /* Pods_EliqModels_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliqModels_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3C2813B96D9C598250791AD4761764 /* Pods-EliqModels_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliqModels_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5A51F41D97E92EF905FDB3381791FBB /* EliqModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqModels-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B2CF3332E167AF8B9E4DDE69115B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BF0E632E41092DBB0A5FCF78658EC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4537585D95E61023A9F1F06FFACDB2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A0D60C8C402A406093F712B70DFEAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7D3A2DD58BFF1708DF1B4DC6E2051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D71F0B4AC08FA52FA4DDD49FB67BB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D3729935F89E895DEAE505325D2B6E1 /* Pods-EliqModels_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3B4942EF593AE3D8A1877347BF730ECF /* Pods-EliqModels_Example.modulemap */,
+				49CDDD137B676304FE83D0E635118B72 /* Pods-EliqModels_Example-acknowledgements.markdown */,
+				5D19007F4491F131B5FD2BD3BF572688 /* Pods-EliqModels_Example-acknowledgements.plist */,
+				7AE6AB17880DEE7ADE2CAEDFDB8007CE /* Pods-EliqModels_Example-dummy.m */,
+				97A109CE7740AE451027CFA212F66740 /* Pods-EliqModels_Example-frameworks.sh */,
+				43A9DFDF9B52108DE3E8766028E5DBA5 /* Pods-EliqModels_Example-Info.plist */,
+				36D6A827C44EF444B502CFEC13B52460 /* Pods-EliqModels_Example-umbrella.h */,
+				CFD4E938CEB31DD31F26D27DE08C2F03 /* Pods-EliqModels_Example.debug.xcconfig */,
+				5AC20D58FFA45DAEAA16618186F7B50A /* Pods-EliqModels_Example.release.xcconfig */,
+			);
+			name = "Pods-EliqModels_Example";
+			path = "Target Support Files/Pods-EliqModels_Example";
+			sourceTree = "<group>";
+		};
+		4E8D26ED22DCA6A800C3A840 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E8D26EE22DCA6C300C3A840 /* EliqFlowModel.swift */,
+				4E8D26F022DCA78600C3A840 /* Enums.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		683A748BF60058CE48D07499CDED37B9 /* Pods-EliqModels_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47AE655FE7C4AD0292D4355D6B462A22 /* Pods-EliqModels_Tests.modulemap */,
+				B4CE6B64BE2D37175594490EBE7DDF72 /* Pods-EliqModels_Tests-acknowledgements.markdown */,
+				DE3C2813B96D9C598250791AD4761764 /* Pods-EliqModels_Tests-acknowledgements.plist */,
+				48A204BD3BCB8584F462B70C8FCAC964 /* Pods-EliqModels_Tests-dummy.m */,
+				9C09ED0312CEDA167CC476CF557BDA0A /* Pods-EliqModels_Tests-Info.plist */,
+				2AD57E98CAF141E04A83FBAD591D105D /* Pods-EliqModels_Tests-umbrella.h */,
+				6712C65A57A2A617FC51E53493BFC487 /* Pods-EliqModels_Tests.debug.xcconfig */,
+				189B9CBE9C7E28F6311FE2D89500CA73 /* Pods-EliqModels_Tests.release.xcconfig */,
+			);
+			name = "Pods-EliqModels_Tests";
+			path = "Target Support Files/Pods-EliqModels_Tests";
+			sourceTree = "<group>";
+		};
+		85AB34A980E9B9E10A869914F1DE9708 /* EliqModels */ = {
+			isa = PBXGroup;
+			children = (
+				4E8D26ED22DCA6A800C3A840 /* Classes */,
+				DADF500256A9C98D09D0F75780519922 /* Pod */,
+				E10598DCCEBECE4DB39F1A04BDA8215E /* Support Files */,
+			);
+			name = EliqModels;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A745860D5754E79A2122B108C0B25BC9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D3729935F89E895DEAE505325D2B6E1 /* Pods-EliqModels_Example */,
+				683A748BF60058CE48D07499CDED37B9 /* Pods-EliqModels_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B43D695EC70D4292A6815D52744E2D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940FEF92E0DA5FD195EC24288102C82C /* EliqModels.framework */,
+				CC000A6B00C5B3626B6076C638746D0E /* Pods_EliqModels_Example.framework */,
+				D5A1DC31B54A7B166597FF0E60F4003A /* Pods_EliqModels_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FD399F58D6C4867C1267ECC45B8385DE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B43D695EC70D4292A6815D52744E2D3E /* Products */,
+				A745860D5754E79A2122B108C0B25BC9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DADF500256A9C98D09D0F75780519922 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47ACDFB7BBC2A295BE6CF55BD85BC93C /* EliqModels.podspec */,
+				D58A0709C63117B21C6DE7FCA18D1D9A /* LICENSE */,
+				3B4F096D015234078502F53AA55AAED3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E10598DCCEBECE4DB39F1A04BDA8215E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AC68DBD61E88C39E6888DED77DD53 /* EliqModels.modulemap */,
+				12D2C1F57BDF943B44C47E49318E8E1A /* EliqModels.xcconfig */,
+				948F52012BC7A2BDDBAA127502752D26 /* EliqModels-dummy.m */,
+				3C9FE38DA50177F5391EDD94B7FF972A /* EliqModels-Info.plist */,
+				2AF12AFEBBD9ABD3C8BED3AB5DE60827 /* EliqModels-prefix.pch */,
+				E5A51F41D97E92EF905FDB3381791FBB /* EliqModels-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EliqModels";
+			sourceTree = "<group>";
+		};
+		FD399F58D6C4867C1267ECC45B8385DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85AB34A980E9B9E10A869914F1DE9708 /* EliqModels */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		028C7A737411F85828EBC573EBD44906 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CB6E739E64336E9B3031E413770B0C /* Pods-EliqModels_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E274AB752FB38AFDE03A9AF755F06C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8D37E558ADECBC78A7ED3C884CE43E /* Pods-EliqModels_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0B92A2C17C5BB73C47E74FD9EAB69A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9B71CF5DB18C3E914EBE2F5FC8AACE /* EliqModels-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C2CD49A5ECF9AC991CC999E33AD9537 /* Pods-EliqModels_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A73B9EE4ABC310CDCD34FFCFFB8E500 /* Build configuration list for PBXNativeTarget "Pods-EliqModels_Example" */;
+			buildPhases = (
+				11E274AB752FB38AFDE03A9AF755F06C /* Headers */,
+				C782AB6EA54EB3CA4E545614431F7406 /* Sources */,
+				4537585D95E61023A9F1F06FFACDB2E6 /* Frameworks */,
+				9609259AED0E6BDBF14C622A9B210C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945982FC2FAC1EE5942D87261D7EDF6B /* PBXTargetDependency */,
+			);
+			name = "Pods-EliqModels_Example";
+			productName = "Pods-EliqModels_Example";
+			productReference = CC000A6B00C5B3626B6076C638746D0E /* Pods_EliqModels_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		191EC923C310BF63A89A7B06D81ECA93 /* Pods-EliqModels_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8623570C2F3AD1B4FCD101F602BCB83 /* Build configuration list for PBXNativeTarget "Pods-EliqModels_Tests" */;
+			buildPhases = (
+				028C7A737411F85828EBC573EBD44906 /* Headers */,
+				D37F00948FFEE2E3EE43825F5CF97BC0 /* Sources */,
+				10B2CF3332E167AF8B9E4DDE69115B2D /* Frameworks */,
+				7F19816A175BE0A5F1342EEB7E9A4012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A94D7E6DD19A55F11722E5DB7F09016 /* PBXTargetDependency */,
+			);
+			name = "Pods-EliqModels_Tests";
+			productName = "Pods-EliqModels_Tests";
+			productReference = D5A1DC31B54A7B166597FF0E60F4003A /* Pods_EliqModels_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D267D6074300813DBC65AEB89C7FC629 /* EliqModels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A057A185A9EE2C79A356A14D8F369ACB /* Build configuration list for PBXNativeTarget "EliqModels" */;
+			buildPhases = (
+				9F0B92A2C17C5BB73C47E74FD9EAB69A /* Headers */,
+				52965B3E659E356DCFCD736A1D0ED8FD /* Sources */,
+				DAB7D3A2DD58BFF1708DF1B4DC6E2051 /* Frameworks */,
+				2323A4A851CE902029C1DEE0B85499E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EliqModels;
+			productName = EliqModels;
+			productReference = 940FEF92E0DA5FD195EC24288102C82C /* EliqModels.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					D267D6074300813DBC65AEB89C7FC629 = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B43D695EC70D4292A6815D52744E2D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D267D6074300813DBC65AEB89C7FC629 /* EliqModels */,
+				0C2CD49A5ECF9AC991CC999E33AD9537 /* Pods-EliqModels_Example */,
+				191EC923C310BF63A89A7B06D81ECA93 /* Pods-EliqModels_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2323A4A851CE902029C1DEE0B85499E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F19816A175BE0A5F1342EEB7E9A4012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9609259AED0E6BDBF14C622A9B210C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52965B3E659E356DCFCD736A1D0ED8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8D26EF22DCA6C300C3A840 /* EliqFlowModel.swift in Sources */,
+				4E8D26F122DCA78600C3A840 /* Enums.swift in Sources */,
+				BA2691A97CF9E226ED7991582106E89A /* EliqModels-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C782AB6EA54EB3CA4E545614431F7406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD40C93893A2A49DF07B9835BCEF43E /* Pods-EliqModels_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37F00948FFEE2E3EE43825F5CF97BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA1623F60444D2FDB7CDEAAC64BB0C1 /* Pods-EliqModels_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		945982FC2FAC1EE5942D87261D7EDF6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EliqModels;
+			target = D267D6074300813DBC65AEB89C7FC629 /* EliqModels */;
+			targetProxy = FA5FC20791487CD151F58C3C80CCD174 /* PBXContainerItemProxy */;
+		};
+		9A94D7E6DD19A55F11722E5DB7F09016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EliqModels_Example";
+			target = 0C2CD49A5ECF9AC991CC999E33AD9537 /* Pods-EliqModels_Example */;
+			targetProxy = E26819E4FC54173BF73ACF4B5024ACF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64373AF21FB4FFE985616EBA00CFDC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6712C65A57A2A617FC51E53493BFC487 /* Pods-EliqModels_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliqModels_Tests/Pods-EliqModels_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliqModels_Tests/Pods-EliqModels_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		839F744F8A1874E73D5B2EF74AEF3621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD4E938CEB31DD31F26D27DE08C2F03 /* Pods-EliqModels_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliqModels_Example/Pods-EliqModels_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliqModels_Example/Pods-EliqModels_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		850A040FD956BCEA5772D79E57AD9266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D2C1F57BDF943B44C47E49318E8E1A /* EliqModels.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EliqModels/EliqModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EliqModels/EliqModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EliqModels/EliqModels.modulemap";
+				PRODUCT_MODULE_NAME = EliqModels;
+				PRODUCT_NAME = EliqModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8B07BA64C1BAC4CC8883A649635D1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D2C1F57BDF943B44C47E49318E8E1A /* EliqModels.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EliqModels/EliqModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EliqModels/EliqModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EliqModels/EliqModels.modulemap";
+				PRODUCT_MODULE_NAME = EliqModels;
+				PRODUCT_NAME = EliqModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B76B11341D1560CB4B665C51083307FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC20D58FFA45DAEAA16618186F7B50A /* Pods-EliqModels_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliqModels_Example/Pods-EliqModels_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliqModels_Example/Pods-EliqModels_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E99AD30B96F4A0006FECE1AC08E43000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189B9CBE9C7E28F6311FE2D89500CA73 /* Pods-EliqModels_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliqModels_Tests/Pods-EliqModels_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliqModels_Tests/Pods-EliqModels_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A73B9EE4ABC310CDCD34FFCFFB8E500 /* Build configuration list for PBXNativeTarget "Pods-EliqModels_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839F744F8A1874E73D5B2EF74AEF3621 /* Debug */,
+				B76B11341D1560CB4B665C51083307FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A057A185A9EE2C79A356A14D8F369ACB /* Build configuration list for PBXNativeTarget "EliqModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850A040FD956BCEA5772D79E57AD9266 /* Debug */,
+				A8B07BA64C1BAC4CC8883A649635D1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8623570C2F3AD1B4FCD101F602BCB83 /* Build configuration list for PBXNativeTarget "Pods-EliqModels_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64373AF21FB4FFE985616EBA00CFDC3D /* Debug */,
+				E99AD30B96F4A0006FECE1AC08E43000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
