@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EliqModels_Example' do
+  pod 'EliqModels', :path => '../'
+
+  target 'EliqModels_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
