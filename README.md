@@ -27,3 +27,4 @@ mert-serin, mert@eliq.io
 ## License
 
 EliqModels is available under the MIT license. See the LICENSE file for more info.
+# EliqModels
