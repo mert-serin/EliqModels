@@ -16,3 +16,9 @@ public enum LoginButtonTypes:String{
     case signUpFlowExternalRef = "sign_up_flow_external_ref"
     case sendTextMessage = "send_text_message"
 }
+
+public enum BrandTypes:String{
+    case Bristol = "Bristol"
+    case Robinhood = "Robinhood"
+    case Eliq = "Eliq"
+}
