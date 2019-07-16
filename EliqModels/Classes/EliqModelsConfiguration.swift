@@ -7,9 +7,9 @@
 
 import Foundation
 
-open class EliqModelsConfiguration{
+public final class EliqModelsConfiguration{
     
-    static var shared = EliqModelsConfiguration()
-    var brand:Brand!
-    var jsonFileURL:URL?
+    public static var shared = EliqModelsConfiguration()
+    public var brand:Brand!
+    public var jsonFileURL:URL?
 }
