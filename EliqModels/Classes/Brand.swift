@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public final class Brand{
+public class Brand{
     
     public var JSONFileName:String?{
         get{
