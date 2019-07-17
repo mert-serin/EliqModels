@@ -38,6 +38,8 @@ open class Brand{
         }
     }
     
+    public init() {}
+    
     func setSignUpFlow() -> [FlowModel]{
         if let url = EliqModelsConfiguration.shared.jsonFileURL {
             do {
