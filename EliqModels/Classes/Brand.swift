@@ -10,29 +10,29 @@ import UIKit
 
 open class Brand{
     
-    public var JSONFileName:String?{
+    open var JSONFileName:String?{
         get{
             return nil
         }
     }
     
-    public var signUpFlow:[FlowModel]!
-    public var plainBackgroundColor:UIColor!{
+    open var signUpFlow:[FlowModel]!
+    open var plainBackgroundColor:UIColor!{
         get{
             return UIColor.blue
         }
     }
-    public var topBarLeftColor:UIColor!{
+    open var topBarLeftColor:UIColor!{
         get{
             return UIColor.black
         }
     }
-    public var topBarRightColor:UIColor!{
+    open var topBarRightColor:UIColor!{
         get{
             return UIColor.black
         }
     }
-    public var gradientAngle:Double!{
+    open var gradientAngle:Double!{
         get{
             return 90.0
         }
