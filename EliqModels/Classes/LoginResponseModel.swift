@@ -50,7 +50,7 @@ public final class LoginResponseUserModel:Codable{
         case createdByClientID = "created_by_client_id"
         case plus
         case addressID
-        case isReadOnly = "is_read_only"
+        case isReadOnly = "is_readonly"
         case lastLoginDate = "last_login_date"
     }
 }
