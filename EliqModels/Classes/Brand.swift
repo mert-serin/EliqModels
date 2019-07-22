@@ -10,6 +10,55 @@ import UIKit
 
 open class Brand{
     
+    open var clientID:Int{
+        get{
+            return 0
+        }
+    }
+    
+    open var energyColor:UIColor{
+        get{
+            return UIColor.clear
+        }
+    }
+    
+    open var minColor:UIColor{
+        get{
+            return UIColor.clear
+        }
+    }
+    
+    open var maxColor:UIColor{
+        get{
+            return UIColor.clear
+        }
+    }
+    
+    open var averageColor:UIColor{
+        get{
+            return UIColor.clear
+        }
+    }
+    
+    open var brandIdentifier:String{
+        get{
+            return ""
+        }
+    }
+    
+    open var brandClientName:String{
+        get{
+            return ""
+        }
+    }
+    
+    open var brandClientID:Int{
+        get{
+            return clientID
+        }
+    }
+    
+    
     open var JSONFileName:String?{
         get{
             return nil
