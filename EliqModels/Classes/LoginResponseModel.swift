@@ -49,7 +49,7 @@ public final class LoginResponseUserModel:Codable{
         case languageCode = "language_code"
         case createdByClientID = "created_by_client_id"
         case plus
-        case addressID
+        case addressID = "address_id"
         case isReadOnly = "is_readonly"
         case lastLoginDate = "last_login_date"
     }
