@@ -30,7 +30,7 @@ public final class LoginResponseUserModel:Codable{
     public var createdDate:String
     public var email:String
     public var languageCode:String
-    public var createdByClientID:String
+    public var createdByClientID:Int
     public var plus:Bool
     public var addressID:Int
     public var isReadOnly:Bool
