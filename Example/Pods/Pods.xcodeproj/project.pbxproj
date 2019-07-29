@@ -12,6 +12,9 @@
 		4E17790A22DDD3270095FD1E /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17790922DDD3270095FD1E /* Brand.swift */; };
 		4E17790C22DDD3640095FD1E /* EliqModelsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17790B22DDD3640095FD1E /* EliqModelsConfiguration.swift */; };
 		4E17797022E5FE880095FD1E /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17796F22E5FE880095FD1E /* LoginResponseModel.swift */; };
+		4EAFFF0722EEE91900E34A95 /* SystemActionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFFF0622EEE91900E34A95 /* SystemActionResponseModel.swift */; };
+		4EAFFF0922EEE93900E34A95 /* FindUserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFFF0822EEE93900E34A95 /* FindUserResponseModel.swift */; };
+		4EAFFF0B22EEE97300E34A95 /* AccessTokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFFF0A22EEE97300E34A95 /* AccessTokenResponseModel.swift */; };
 		58BF0E632E41092DBB0A5FCF78658EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6FA1623F60444D2FDB7CDEAAC64BB0C1 /* Pods-EliqModels_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A204BD3BCB8584F462B70C8FCAC964 /* Pods-EliqModels_Tests-dummy.m */; };
 		96D71F0B4AC08FA52FA4DDD49FB67BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -60,6 +63,9 @@
 		4E17790922DDD3270095FD1E /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		4E17790B22DDD3640095FD1E /* EliqModelsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliqModelsConfiguration.swift; sourceTree = "<group>"; };
 		4E17796F22E5FE880095FD1E /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		4EAFFF0622EEE91900E34A95 /* SystemActionResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemActionResponseModel.swift; sourceTree = "<group>"; };
+		4EAFFF0822EEE93900E34A95 /* FindUserResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUserResponseModel.swift; sourceTree = "<group>"; };
+		4EAFFF0A22EEE97300E34A95 /* AccessTokenResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenResponseModel.swift; sourceTree = "<group>"; };
 		5AC20D58FFA45DAEAA16618186F7B50A /* Pods-EliqModels_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqModels_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D19007F4491F131B5FD2BD3BF572688 /* Pods-EliqModels_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliqModels_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6712C65A57A2A617FC51E53493BFC487 /* Pods-EliqModels_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqModels_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +138,9 @@
 				4E17790922DDD3270095FD1E /* Brand.swift */,
 				4E17790B22DDD3640095FD1E /* EliqModelsConfiguration.swift */,
 				4E17796F22E5FE880095FD1E /* LoginResponseModel.swift */,
+				4EAFFF0622EEE91900E34A95 /* SystemActionResponseModel.swift */,
+				4EAFFF0822EEE93900E34A95 /* FindUserResponseModel.swift */,
+				4EAFFF0A22EEE97300E34A95 /* AccessTokenResponseModel.swift */,
 			);
 			name = Classes;
 			path = EliqModels/Classes;
@@ -394,8 +403,11 @@
 				4E17797022E5FE880095FD1E /* LoginResponseModel.swift in Sources */,
 				4E17790C22DDD3640095FD1E /* EliqModelsConfiguration.swift in Sources */,
 				4E17790722DDD31B0095FD1E /* EliqFlowModel.swift in Sources */,
+				4EAFFF0722EEE91900E34A95 /* SystemActionResponseModel.swift in Sources */,
 				4E17790A22DDD3270095FD1E /* Brand.swift in Sources */,
+				4EAFFF0B22EEE97300E34A95 /* AccessTokenResponseModel.swift in Sources */,
 				4E17790822DDD31B0095FD1E /* Enums.swift in Sources */,
+				4EAFFF0922EEE93900E34A95 /* FindUserResponseModel.swift in Sources */,
 				BA2691A97CF9E226ED7991582106E89A /* EliqModels-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

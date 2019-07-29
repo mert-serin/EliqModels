@@ -87,6 +87,37 @@ open class Brand{
         }
     }
     
+    open var onboardingDetails:[[String:Any]]{
+        get{
+            return [
+                [
+                    "identifier":"welcome",
+                    "text": "highlights_title_1",
+                    "message": "highlights_text_1",
+                    "is_skippable": false
+                ],
+                [
+                    "identifier": "explore",
+                    "text": "Explore",
+                    "message": "highlights_text_2",
+                    "is_skippable": false
+                ],
+                [
+                    "identifier": "challenges",
+                    "text": "Internal Challenges",
+                    "message": "highlights_text_3",
+                    "is_skippable": false
+                ],
+                [
+                    "identifier": "monitors",
+                    "text": "Monitor",
+                    "message": "highlights_text_4",
+                    "is_skippable": false
+                ]
+            ]
+        }
+    }
+    
     public init() {}
     
     open func setSignUpFlow() -> [FlowModel]{
