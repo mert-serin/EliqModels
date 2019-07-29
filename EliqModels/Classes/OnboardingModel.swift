@@ -13,7 +13,7 @@ public final class OnboardingModel:Codable{
     public var text:String
     public var message:String
     public var isSkippable:Bool
-    public var isSwipeable:Bool
+    public var isSwipeable:Bool?
     public var links:[OnboardingButtonModel]?
     
     private enum CodingKeys: String, CodingKey{
