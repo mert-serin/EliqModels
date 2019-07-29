@@ -14,7 +14,7 @@ public final class OnboardingModel:Codable{
     public var message:String
     public var isSkippable:Bool
     public var isSwipeable:Bool
-    public var links:[OnboardingButtonModel]
+    public var links:[OnboardingButtonModel]?
     
     private enum CodingKeys: String, CodingKey{
         case isSkippable = "is_skippable"
