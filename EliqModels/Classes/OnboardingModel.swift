@@ -24,9 +24,9 @@ public final class OnboardingModel:Codable{
 }
 
 public final class OnboardingButtonModel:Codable{
-    var linkText:String
-    var linkStyle:String
-    var link:String
+    public var linkText:String
+    public var linkStyle:String
+    public var link:String
     
     private enum CodingKeys: String, CodingKey{
         case linkText = "link_text"
